@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC</title>
+    <style>
+        .output {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Blood Alcohol Calculator</h1>
+
+<label for="numberOfBeers">How many beers did you drink?</label>
+<input type="number" id="numberOfBeers">
+
+<br>
+
+<label for="glassesOfWine">How many glasses of wine did you drink?</label>
+<input type="number" id="glassesOfWine">
+
+<br>
+
+<label for="numberOfShots">How many shots have you had?</label>
+<input type="number" id="numberOfShots">
+
+<br>
+
+<label for="weightInPounds">How much do you weigh in pounds?</label>
+<input type="number" id="weightInPounds">
+
+<br>
+
+<label for="hoursSinceFirstSip">How many hours ago did you start drinking?</label>
+<input type="number" id="hoursSinceFirstSip">
+
+<br>
+
+<button id="calculateBloodAlcoholLevel">Calculate My BAC</button>
+
+<br>
+
+<p id="amountOfBeerOutput" class="output"></p>
+
+<p id="amountOfWineOutput" class="output"></p>
+
+<p id="amountOfShotsOutput" class="output"></p>
+
+<p id="totalBAC" class="output"></p>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
